@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+//import Arrays from './Arrays';
+//import Array1 from './Array1';
+//import Array2 from './Array2';
+import Template from './Template';
+//import Fetch from './Fetch';
+import FetchQuestion from './FetchQuestion';
+import Circuit from './Circuit';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+
+      <Circuit/>
     </div>
   );
 }
